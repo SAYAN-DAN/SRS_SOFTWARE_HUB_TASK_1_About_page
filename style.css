@@ -58,7 +58,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  position: relative;
+  /* position: relative; */
 }
 
 .footer {
@@ -70,6 +70,8 @@ main {
   justify-content: center;
   color: #fff;
   box-sizing: border-box;
+  /* position: relative;
+  bottom: 0; */
 }
 .footer p {
   font-size: 20px;
@@ -90,6 +92,7 @@ main {
   .image {
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 10px;
   }
   .image img {
     max-width: 90%;
